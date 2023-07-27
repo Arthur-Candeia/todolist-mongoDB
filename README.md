@@ -14,25 +14,25 @@ Projeto FullStack com banco de dados não-relacional(noSQL) MongoDB! Toda a part
 ### **ROUTES**
 
 #### checklist.js
-Nessa arquivo de rotas temos todas as ações que podem ser feitas nas checklists, as principais rotas da aplicação estão nesse arquivo!
-Rota `GET /checklists` Renderiza todas as checklists
-Rota `GET /checklists/new` Renderiza a página para criar uma nova checklist
-Rota `GET /checklists/:id` Renderiza a página de uma checklist em específico
-Rota `GET /checklists/:id/edit` Renderiza a página para editar uma checklist
-Rota `POST /checklists` Cria uma nova checklist
-Rota `PUT /checklists/:id` Edita uma checklist com base em seu id
-Rota `DELETE /checklists/:id` Deleta uma checklist com base em seu id
+Nessa arquivo de rotas temos todas as ações que podem ser feitas nas checklists, as principais rotas da aplicação estão nesse arquivo! <br />
+Rota `GET /checklists` Renderiza todas as checklists <br />
+Rota `GET /checklists/new` Renderiza a página para criar uma nova checklist <br />
+Rota `GET /checklists/:id` Renderiza a página de uma checklist em específico <br />
+Rota `GET /checklists/:id/edit` Renderiza a página para editar uma checklist <br />
+Rota `POST /checklists` Cria uma nova checklist <br />
+Rota `PUT /checklists/:id` Edita uma checklist com base em seu id <br />
+Rota `DELETE /checklists/:id` Deleta uma checklist com base em seu id <br />
 
 #### task.js
-Nesse arquivo de rotas temos todas as ações que podem ser feitas nas tasks (tarefas), onde temos as Router's que dependem da checklist e as que não dependem (exclusão e modificação).
-Rota `GET /checklists/:id/tasks/new` Remderiza a página de criação de uma nova tarefa em uma checklist
-Rota `POST /checklists/:id/tasks` Salva uma tarefa em uma checklist específica
-Rota `DELETE /tasks/:id` Exclui uma tarefa de uma checklist com base em seu id
-Rota `PUT /tasks/:id` Edita uma tarefa de uma checklist com base em seu id
+Nesse arquivo de rotas temos todas as ações que podem ser feitas nas tasks (tarefas), onde temos as Router's que dependem da checklist e as que não dependem (exclusão e modificação). <br />
+Rota `GET /checklists/:id/tasks/new` Remderiza a página de criação de uma nova tarefa em uma checklist <br />
+Rota `POST /checklists/:id/tasks` Salva uma tarefa em uma checklist específica <br />
+Rota `DELETE /tasks/:id` Exclui uma tarefa de uma checklist com base em seu id <br />
+Rota `PUT /tasks/:id` Edita uma tarefa de uma checklist com base em seu id <br />
 
 #### index.js
-Nesse arquivo temos uma única rota que corresponde a raiz. Essa rota é responsável por renderizar o index!
-Rota `GET /` Renderiza o start do projeto!
+Nesse arquivo temos uma única rota que corresponde a raiz. Essa rota é responsável por renderizar o index! <br />
+Rota `GET /` Renderiza o start do projeto! <br />
 
 
 ### **VIEWS**
